@@ -37,6 +37,15 @@ hr {
 
 }
 
+section{
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 /*****************************************CLASSES**********************************/
 .top-container {
   padding-top: 130px;
@@ -46,7 +55,7 @@ hr {
 
 .middle-container {
   padding-top: 100px;
-  padding-bottom: 80px;
+  padding-bottom: 70px;
 }
 
 .bottom-container {
@@ -114,8 +123,9 @@ right: 80%;
   border-width: 10px;
   border-color: grey;
 }
+
 .contact-me {
-  padding-top: 70px;
+  padding-top: 40px;
 }
 
 .footer-link {
@@ -132,16 +142,23 @@ right: 80%;
   padding-top: 30px;
 }
 
+.btn_container {
+padding-top: 20px;
+}
+
+
 .btn {
   background: #11cdd4;
   background-image: linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  border-radius: 7px;
+  border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 17px;
+  color: black;
+  font-size: 20px;
   padding: 7px 17px 7px 17px;
   text-decoration: none;
+  cursor: pointer;
+  margin: 15px;
 }
 
 .btn:hover {
@@ -150,3 +167,4 @@ right: 80%;
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
